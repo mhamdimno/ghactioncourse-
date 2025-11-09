@@ -12,4 +12,10 @@ jobs:
     steps:
       - name: xxxxx
         run: echo xxx
-    
+
+      - name: checkout repo
+        uses: actions/checkout@v6-beta
+
+      - name: repos
+        run: ls -la
+
