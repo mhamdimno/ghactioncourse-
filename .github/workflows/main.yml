@@ -1,0 +1,15 @@
+name: fist workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  exjob:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: xxxxx
+        run: echo xxx
+    
